@@ -1,0 +1,152 @@
+
+.icon-footer
+{
+    position: absolute;
+    right:  50px;
+    bottom: 0px;
+}
+
+#home
+{
+    display: flex;
+    padding: 30px;
+   
+}
+
+#imgsrc
+{
+    width: 50px;
+}
+#side
+{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    display: flex;
+    
+    background-color: black !important;
+    z-index: 99999997;
+}
+
+ #side ul li 
+{
+   
+  padding: 10px 15px;
+    
+
+} 
+
+ ul li
+ {
+    list-style: none !important; 
+ }
+
+
+ul li a
+{
+    
+    text-decoration: none !important;
+    color:white !important;
+    transition: 1s;
+}
+.icon-footer
+{
+ 
+  color: white !important;
+  transition: 1s;
+}
+.icon-footer:hover
+{
+    color: mediumvioletred !important;
+}
+ul li a:hover
+{
+    color: mediumvioletred !important;
+}
+.test
+{
+    display: block;
+}
+
+#icon-home
+{
+    width: 50px;
+    height: 100%;
+ 
+    
+     
+    
+background-color:white;
+
+}
+
+body
+{
+    background-color: black;
+}
+
+#openSide
+{
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: blue;
+}
+ #cont
+ {
+     position: relative;
+     top: 0;
+     left: 80px;
+     color: white;
+ }  
+
+
+
+
+#room
+{
+    width: 100px;
+    height: 100%;
+      padding: 8px;
+
+    
+    background-color:white;
+    
+}
+#pragrf
+{
+position: absolute;
+
+top: 525px;
+left: 0;
+right: 0;
+bottom: 0;
+overflow: hidden;
+
+transition: 1s ;
+background-color:rgba(255, 255, 255, 0.7);
+}
+#team:hover #pragrf
+{
+   top: 0;
+   
+}
+
+
+#btn
+{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+}
+  
+
+
+
+
+
